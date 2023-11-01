@@ -29,7 +29,7 @@ a:hover{
     color:blue;
     text-decoration: underline;
 }
-ul ul{
+ol li ul.special{
     color: yellow;
     font-weight: bold;
 }
