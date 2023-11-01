@@ -1,3 +1,32 @@
 body{
-    background-color: pink;
+    background-color: rgb(209, 245, 245);
+    
+}
+h1{
+    text-align:center;
+    text-decoration: underline;
+    font-style: italic;
+   
+}
+h2{
+    color:cadetblue;
+    font-weight: bold;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-family:'Times New Roman';
+}
+p::first-letter{
+    font-size: 1.5em;
+}
+/* Normal link style*/
+a{
+    text-decoration: none;
+}
+/* Normal link style when hovered*/
+a:hover{
+    color:blue;
+    text-decoration: underline;
 }
