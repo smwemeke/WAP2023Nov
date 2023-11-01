@@ -22,7 +22,6 @@ p::first-letter{
 }
 .drop-cap{
     font-size: 1.5em;
-   
     margin-right: 10px;
     transform: rotate(180deg) scaleY(-1);
    /* transform-origin: center;*/
