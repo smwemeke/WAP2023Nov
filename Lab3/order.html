@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Order</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link href="order.css" type="text/css" rel="stylesheet"/>
+   
 </head>
 <body>
-<div class="welcome">
-        
-    <img src="order-logo.png" alt="logo"/>
+<div id="container">
+    <div id="header">    
+    <img id="logo" src="woman.png" alt="logo"/>
     <span>Welcome Sue!</span>
     <button>Logout</button>
+    </div>
     <hr/>
     <p>Product List</p>
-    <table>
+    <table id="tab1">
         <tr>
             <td>Name</td>
             <td>Price</td>
@@ -25,7 +28,7 @@
             <td>Node.js</td>
             <td>9.99</td>
             <td>8</td>
-            <td>icon1</td>
+            <td><i class="fa-solid fa-cart-shopping"></i></td>
         </tr>
         <tr>
             <td>React</td>
@@ -41,7 +44,7 @@
         </tr>
     </table>
     <p>My Shopping List</p>
-    <table>
+    <table id="tab2">
         <tr>
             <td>Name</td>
             <td>Price</td>
@@ -52,20 +55,22 @@
             <td>Node.js</td>
             <td>9.99</td>
             <td>8</td>
-            <td></td>
+            <td> - <button> 0 </button> + </td>
         </tr>
         <tr>
             <td>Angular</td>
             <td>29.99</td>
             <td>290.99</td>
-            <td> </td>
+            <td> - <button>0  </button> + </td>
         </tr>
         <tr>
-            <td colspan="4">Total: 300.98</td>
+            <td class="total"colspan="4" >Total: 300.98</td>
         </tr>
         
     </table>
-    <button>Place Order</button> 
+    <div class="button">
+        <button>Place Order</button> 
+    </div>
 </div>   
 </body>
 </html>

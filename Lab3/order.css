@@ -1,3 +1,20 @@
+body{
+    background-color:rgb(247, 233, 214)
+}
+#container{
+    border:1px solid;
+}
+#tab1 {
+    margin-left: 5%;
+}
+#tab2 {
+    margin-left: 5%;
+}
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 table,tr,td{
     border: 1px solid;
     width:50%
@@ -5,7 +22,36 @@ table,tr,td{
 }
 .welcome{
     border: 1px solid;
+   
 }
 table{
     border-collapse: collapse;
+}
+.button {
+   
+    display: flex;
+    justify-content: flex-end;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+}
+#header button{
+    font-weight: bold;
+    margin-right: 10%;
+    height:40px;
+    width:80px;
+    background-color: rgb(74, 179, 179);
+
+    
+}
+button{
+    font-weight: bold;
+}
+p{
+    
+    color:rgb(74, 179, 179);
+}
+#logo{
+    width:80px;
 }
