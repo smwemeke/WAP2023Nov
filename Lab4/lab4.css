@@ -8,14 +8,14 @@
 #main{
     display: flex;
     justify-content:space-evenly;
-    flex-direction: row wrap;
+    /* flex-direction: row wrap; */
     margin-bottom: 20px;
 }
 .workshop{
     background-color: cadetblue;
     height: 40px;
     font-size: 2em;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 h4{
     text-decoration: underline;
