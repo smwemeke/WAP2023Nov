@@ -31,14 +31,14 @@ h4{
 } 
 .fname{
     display: flex;
-    flex-direction: row wrap;
+    /* flex-direction: row wrap; */
     margin-bottom: 30px;
     justify-content: space-between;
     
     }
 .rightinput{
     display: flex;
-    flex-direction: row wrap;
+    /* flex-direction: row wrap; */
     margin-bottom: 30px;
     justify-content: space-between;
 }
@@ -53,7 +53,7 @@ h4{
 .submit{
     display:flex;
     justify-content: center;
-    flex-direction: row wrap;
+    /* flex-direction: row wrap; */
     
 }
  .subBtn{
