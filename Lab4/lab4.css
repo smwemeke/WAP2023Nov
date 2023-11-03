@@ -1,8 +1,9 @@
 #container{
-    border:1px solid;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    border:1px solid cadetblue;
+    margin-top:30px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 300px;
     
 }
 #main{
@@ -22,7 +23,6 @@ h4{
 }
  .left{
     display: flex;
-    
     flex-direction: column;
 } 
 .right{
@@ -46,9 +46,12 @@ h4{
     margin-right: 20px;
     font-weight: bold;
 } 
+.checkbox{
+    margin-right: 70px;
+}
 #address_textarea{
-    height: 70px;
-    width:100px;
+    height: 80px;
+    width:175px;
 }
 .submit{
     display:flex;
@@ -59,12 +62,13 @@ h4{
  .subBtn{
     background-color: cadetblue;
     color: white;
+    border-color: none;
+    border-radius: 12px;
     margin-bottom: 30px;
     height: 30px;
     font-weight: bold;
-    width:80px
-    
-    
-    
-    
+    width:80px    
 } 
+.select{
+    width: 180px;
+}
