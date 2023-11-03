@@ -1,0 +1,70 @@
+#container{
+    border:1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#main{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row wrap;
+    margin-bottom: 20px;
+}
+.workshop{
+    background-color: cadetblue;
+    height: 40px;
+    font-size: 2em;
+    justify-content: space-evenly;
+}
+h4{
+    text-decoration: underline;
+}
+ .left{
+    display: flex;
+    
+    flex-direction: column;
+} 
+.right{
+    display: flex;
+    flex-direction: column;
+} 
+.fname{
+    display: flex;
+    flex-direction: row wrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    
+    }
+.rightinput{
+    display: flex;
+    flex-direction: row wrap;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+ label{
+    margin-right: 20px;
+    font-weight: bold;
+} 
+#address_textarea{
+    height: 70px;
+    width:100px;
+}
+.submit{
+    display:flex;
+    justify-content: center;
+    flex-direction: row wrap;
+    
+}
+ .subBtn{
+    background-color: cadetblue;
+    color: white;
+    margin-bottom: 30px;
+    height: 30px;
+    font-weight: bold;
+    width:80px
+    
+    
+    
+    
+} 
