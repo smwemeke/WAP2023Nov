@@ -28,3 +28,16 @@ console.log('Lab 5 N0.2')
 
  //N0.3
  console.log('Lab 5 N0.3')
+
+ let concat = (...args) => {
+    return args.reduce((arr, arg) =>{
+        if (typeof arg === 'string'){
+            arr.push(...arg);
+        }
+        else if (Array.isArray(arg)){
+            arr.push(...arg);
+        }
+        return arr;
+    }, []);
+ }
+ console.log(concat('hi', [1,2,3], ['Hello','world']));
