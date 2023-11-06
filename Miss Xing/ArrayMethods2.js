@@ -35,9 +35,10 @@ console.log('------------Concat Demos----------------');
 //Concat - creates a new array that includes values from other arrays and additional items
 
 const array1 = [1,2,3,4,5];
+const array3 = ['sue', 'grace'];
 const array2 = ['a','b','c','d'];
-const result = array1.concat(array2);
-console.log(result);
+const result = array1.concat(array2, array3);
+console.log('Concatinating: ' + '' + result);
 
 console.log('------------Split and Join Demos----------------');
 const str = 'The Lord will guide us all out lives';
