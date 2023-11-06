@@ -23,13 +23,13 @@ console.log('Lab 5 N0.2')
     });
     return newArr;
         } ;   
- const finalArr = [ 'damian','alvin', 'aaron','suzan'];
+ const finalArr = [ 'derrick','damian','alvin', 'aaron','suzan'];
  console.log(getNewArray(finalArr));
 
  //N0.3
  console.log('Lab 5 N0.3')
 
- let concat = (...args) => {
+ const concat = (...args) => {
     return args.reduce((arr, arg) =>{
         if (typeof arg === 'string'){
             arr.push(...arg);
@@ -40,4 +40,5 @@ console.log('Lab 5 N0.2')
         return arr;
     }, []);
  }
- console.log(concat('hi', [1,2,3], ['Hello','world']));
+ const myconcat = concat('hi', [1,2,3], ['Hello','world']);
+ console.log(myconcat );
