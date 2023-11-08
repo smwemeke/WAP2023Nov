@@ -17,3 +17,12 @@ const user = {
 
 }
 user.greet();
+
+// Another example on arrow function
+function foo(){
+    console.log(this);
+}
+
+const baz = (a,b) => console.log(this,a,b);
+baz.call('123', 'Hi','Sue');  // output will be [Window, Hi, Sue] , this won't change to 123 because of arrow function
+
