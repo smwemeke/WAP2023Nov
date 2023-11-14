@@ -42,3 +42,11 @@ console.log('Lab 5 N0.2')
  }
  const myconcat = concat('hi', [1,2,3], ['Hello','world']);
  console.log(myconcat );
+
+
+ ////// Using spread operator
+
+//  var a ='hi', b = [1,2,3],  c =['Hello','world'];
+//  var e = [...a, b, ...c];
+//  console.log('Spread Operator: ' + [e]);
+

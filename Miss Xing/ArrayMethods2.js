@@ -24,11 +24,11 @@ console.log('------------Slice Demos----------------');
 // Slice - Returns a new array copying to it all elements from index start to end(not including end)
 const arr4 = ['a', 'b', 'c', 'd', 'e','f','g','h'];
 const slice1 = arr4.slice(3)
-console.log(slice1);
+console.log('Slice1: ' + slice1);
 
 const arr5 = ['a', 'b', 'c', 'd', 'e','f','g','h'];
 const slice2 = arr5.slice(3,5);
-console.log(slice2);
+console.log("Slice2: " + slice2);
 
 console.log('------------Concat Demos----------------');
 
@@ -41,7 +41,7 @@ const result = array1.concat(array2, array3);
 console.log('Concatinating: ' + '' + result);
 
 console.log('------------Split and Join Demos----------------');
-const str = 'The Lord will guide us all out lives';
+const str = 'The Lord will guide us all our lives';
 const strArr = str.split(" ");
 console.log(strArr);
 

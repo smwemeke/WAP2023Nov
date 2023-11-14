@@ -17,16 +17,16 @@ let addElement = arr.push(11);  // Adding 11 to the end of array
 console.log(addElement);
 console.log(arr);
 
-let removeElemenet  = arr.pop();
-console.log(removeElemenet);
-console.log(arr);
+// let removeElemenet  = arr.pop();
+// console.log(removeElemenet);
+// console.log(arr);
 
-console.log('------shift and unshift----------');
+// console.log('------shift and unshift----------');
 
-let removefrontElement = arr.shift();
-console.log(removefrontElement);
-console.log(arr);
+// let removefrontElement = arr.shift();
+// console.log(removefrontElement);
+// console.log(arr);
 
-let addfrontelement = arr.unshift('A');
-console.log(addfrontelement);
-console.log(arr);
+// let addfrontelement = arr.unshift('A');
+// console.log(addfrontelement);
+// console.log(arr);

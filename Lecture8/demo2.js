@@ -1,5 +1,6 @@
 const animal = {
     eats:true,
+    
 };
 
 
