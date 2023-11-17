@@ -6,7 +6,9 @@ const productRouter = require('./routes/router-product');
 const app = express(); 
 app.use(express.urlencoded({extended: true}));
 
+
 // 4. Middleware
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(userRouter);
 app.use(productRouter);
 
