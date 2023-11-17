@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link href="/resources/css/main.css" type="text/css" res="stylesheet"/>
+</head>
+<body>
+    <form action="/user" method="post">
+        <p>Firstname: <input name="firstname"></p>
+        <p>Lastname: <input name="lastname"></p>
+        <p>Age: <input name="age"></p>
+        <div class="fname"><label>Gender</label> <select class="select" name="gender">
+            <option selected disabled>-Select-</option>
+            <option> Female</option>
+            <option>Male</option>
+        </select>
+    </div><br>
+
+    <div class="fname"><label>Nationality</label> <select class="select" name="country">
+        <option selected disabled>-Select-</option>
+        <option> Ugandan</option>
+        <option>Kenyan</option>
+        <option>Rwanda</option>
+        <option>Tanzanian</option>
+        <option>DRC</option>
+    </select>
+</div><br>
+
+        <button> Add User</button>
+
+    </form>
+</body>
+</html>

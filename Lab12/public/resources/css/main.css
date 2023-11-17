@@ -1,0 +1,7 @@
+.fname{
+    display: flex;
+    /* flex-direction: row wrap; */
+    margin-bottom: 30px;
+    justify-content: space-between;
+    
+    }
