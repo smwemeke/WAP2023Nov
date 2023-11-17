@@ -11,8 +11,6 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static(path.join(__dirname, 'public', 'resources')));
 
 
-//app.use('/public', express.static(path.join(__dirname, 'public', 'resources', 'css')));
-
 app.use('/user',userRouter);
 app.use('/product',productRouter);
 
