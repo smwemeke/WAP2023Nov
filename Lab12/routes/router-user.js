@@ -7,7 +7,8 @@ router.get('/', (req,res,next) =>{
 });
 
 router.post('/', (req, res,next) => {
-    res.send(`FirstName: ${req.body.firstname}, LastName: ${req.body.lastname}, Age: ${req.body.age}, Gender: ${req.body.gender}, Nationality: ${req.body.country}`);
+    res.send(`FirstName: ${req.body.firstname}, LastName: ${req.body.lastname}, 
+    Age: ${req.body.age}, Gender: ${req.body.gender}, Nationality: ${req.body.country}`);
     console.log('User added successfully');
 });
 

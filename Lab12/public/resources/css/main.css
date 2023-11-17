@@ -1,3 +1,13 @@
-    body{
-        background-color: aqua;
+    #res{
+        background-color: rgb(212, 186, 230);
+        margin-left: 20%;
+        width: 300px;
+        height: auto;
+    }
+    div p{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-style: normal;
+    }
+    h3{
+        text-align: center;
     }
