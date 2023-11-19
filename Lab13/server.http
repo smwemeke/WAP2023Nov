@@ -1,0 +1,29 @@
+GET http://localhost:3000/books
+
+###
+GET  http://localhost:3000/books/4
+
+###
+POST  http://localhost:3000/books
+Content-Type: application/json
+
+{
+     "title": "histoo",
+     "ISBN": "histooISBN", 
+     "publishedDate": "12/December/2023",
+      "author": "Mwemeke"
+}
+
+###
+PUT http://localhost:3000/books/4
+Content-Type: application/json
+
+{
+     "title": "histoo",
+     "ISBN": "histooISBN", 
+     "publishedDate": "12/January/2023",
+      "author": "Grace"
+}
+
+###
+DELETE http://localhost:3000/books/2
