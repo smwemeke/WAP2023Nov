@@ -35,10 +35,11 @@ module.express = class Book {
         const index = books.findIndex(p => p.id == id)
         if(index >-1){
             books.splice(index, 1);
+             //books =  books.filter(b => b.id != id) // delete using filter 
         }else{
             throw new Error(`Book with ID: ${id} cannot be found`);
         }
-       //books =  books.filter(b => b.id != id) // delete using filter  
+       
 
     }
 }
