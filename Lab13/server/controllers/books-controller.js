@@ -18,10 +18,12 @@ exports.saveBook = (req, res) => {
     }
     exports.updateBook = (req, res) => {
     const {title, ISBN, publishDate, author} = req.body;
-    const updatedBook = new Book(id, title, ISBN, publishDate, author).updateById(req.param.id);
-    res.status(200).end();
+    const bookUpdate = new Book(null, title, ISBN, publishDate, author);
+    bookUpdate.id = req.params.id;
+    bookUpdate.updateById(req.params.id);
+    res.status(200).json(bookUpdate);
     }
     exports.deleteById = (req, res) => {
-    Book.deleteById(req.params.prodId);
+    Book.deleteById(req.params.id);
     res.status(200).end();
     }

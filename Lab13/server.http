@@ -10,8 +10,8 @@ Content-Type: application/json
 {
      "title": "histoo",
      "ISBN": "histooISBN", 
-     "publishedDate": "12/December/2023",
-      "author": "Mwemeke"
+     "publishedDate": "12/January/2023",
+      "author": "William"
 }
 
 ###
@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/books/2
+DELETE http://localhost:3000/books/4

@@ -31,6 +31,7 @@ module.exports = class Book {
     updateById(id){
         const index =books.findIndex(p => p.id == id);
         if(index > -1){
+            this.id = id;
             books[index] = this;
         }else{
             throw new Error (`Book with ID: ${id} cannot be found`);
