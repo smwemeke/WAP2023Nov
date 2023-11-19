@@ -1,5 +1,10 @@
-let books = [];
-let counter =0;
+let books = [
+    {id: 1, title: 'mine', ISBN: 'myISBN', publishedDate: '12/December/2023', author: 'Sue'},
+    {id: 1, title: 'ours', ISBN: 'ourISBN', publishedDate: '12/August/2023', author: 'Damien'},
+    {id: 1, title: 'his', ISBN: 'hisISBN', publishedDate: '12/September/2023', author: 'Alvin'},
+    {id: 1, title: 'histoo', ISBN: 'histooISBN', publishedDate: '12/June/2023', author: 'Aaron'}
+];
+let counter =4;
 module.express = class Book {
     constructor(id, title, ISBN, publishedDate, author){
                this.id = id;
