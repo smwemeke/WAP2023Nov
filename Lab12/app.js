@@ -8,7 +8,7 @@ const app = express();
 app.use(express.urlencoded({extended: true}));
 
 // 4. Middleware
-app.use(express.static(path.join(__dirname, 'public', 'resources')));
+app.use('/mypath',express.static(path.join(__dirname, 'public', 'resources', 'css')));
 
 
 app.use('/user',userRouter);

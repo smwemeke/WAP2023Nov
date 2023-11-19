@@ -11,5 +11,4 @@ router.post('/', (req, res,next) => {
     Age: ${req.body.age}, Gender: ${req.body.gender}, Nationality: ${req.body.country}`);
     console.log('User added successfully');
 });
-
 module.exports = router;
