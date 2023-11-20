@@ -1,28 +1,31 @@
 GET http://localhost:3000/books
 
 ###
-GET  http://localhost:3000/books/4
+GET  http://localhost:3000/books/3
+
+###
+GET  http://localhost:3000/books/Alvin
 
 ###
 POST  http://localhost:3000/books
 Content-Type: application/json
 
 {
-     "title": "histoo",
-     "ISBN": "histooISBN", 
-     "publishedDate": "12/January/2023",
-      "author": "William"
+     "title": "Computer",
+     "ISBN": "herISBN", 
+     "publishDate": "12/June/2023",
+      "author": "Mugerwa Moses"
 }
 
 ###
-PUT http://localhost:3000/books/4
+PUT http://localhost:3000/books/3
 Content-Type: application/json
 
 {
      "title": "histoo",
      "ISBN": "histooISBN", 
-     "publishedDate": "12/January/2023",
-      "author": "Grace"
+     "publishDate": "12/January/2023",
+      "author": "Mwemeke Derrick"
 }
 
 ###

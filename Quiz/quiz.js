@@ -1,11 +1,7 @@
-console.log('start');
+async function foo() {
 
-new Promise((resolve, reject) => {
+    return 'hi';
 
-    console.log('1');
+}
 
-    resolve('2');
-
-}).then(console.log);
-
-console.log('end');
+console.log(foo());
