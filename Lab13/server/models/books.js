@@ -20,13 +20,13 @@ module.exports = class Book {
     static BookById(id){
         return books.find(b => b.id == id);
     }
-    static BookByAuthor(author){
-         const booksByAuthor = books.filter(b => b.author === author);
-         if(booksByAuthor.length ==0){
-            throw new Error('No books found for the specified author.');
-         }
-         return booksByAuthor;
-    }    
+    // static BookByAuthor(author){
+    //      const booksByAuthor = books.filter(b => b.author === author);
+    //      if(booksByAuthor.length ==0){
+    //         throw new Error('No books found for the specified author.');
+    //      }
+    //      return booksByAuthor;
+    // }    
 
     save(){
        this.id = counter++; // generating ID numbers by counter increament
@@ -34,7 +34,6 @@ module.exports = class Book {
         books.push(this);
         return this;
     }
-
     updateById(id){
         const index =books.findIndex(p => p.id == id);
         if(index > -1){
