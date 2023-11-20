@@ -17,13 +17,20 @@ module.exports = class Book {
         return books;
     }
 
-    static getBookById(id){
-        return books.find(b=> b.id == id);
+    static BookById(id){
+        return books.find(b => b.id == id);
     }
+    static BookByAuthor(author){
+         const booksByAuthor = books.filter(b => b.author === author);
+         if(booksByAuthor.length ==0){
+            throw new Error('No books found for the specified author.');
+         }
+         return booksByAuthor;
+    }    
 
     save(){
-        this.id = counter++; // generating ID numbers by counter increament
-       // this.id = Math.random().toString(); //generating IDs numbers randomly
+       this.id = counter++; // generating ID numbers by counter increament
+      // this.id = Math.random().toString(); //generating IDs numbers randomly
         books.push(this);
         return this;
     }
@@ -44,8 +51,6 @@ module.exports = class Book {
              //books =  books.filter(b => b.id != id) // delete using filter 
         }else{
             throw new Error(`Book with ID: ${id} cannot be found`);
-        }
-       
-
+        } 
     }
 }
